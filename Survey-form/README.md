@@ -1,12 +1,18 @@
 HTML/CSS Survey Form
 
-Description
+Description;
 This project is a simple survey form implemented using HTML and CSS. It serves as a basic template for creating surveys and collecting user input.
 
-Features
+Features;
 Clean and responsive design
 Easy-to-understand HTML structure
 Styled with CSS for a visually appealing form
 
-Customization
+Customization;
 Feel free to customize the form to suit your specific needs. You can modify the questions, add new fields, or adjust the styling in the CSS file.
+
+Acknowledgments;
+This project was inspired by [freeCodeCamp].
+
+Contact;
+For any questions or feedback, feel free to contact me.
