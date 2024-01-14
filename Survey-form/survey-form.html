@@ -15,8 +15,9 @@
 <form id="survey-form">
   <fieldset>
   <label id="name-label">Name</label>
-  <input id="name" type="text" placeholder="Enter your name" required>
-    
+  <input id="name" type="text"
+  placeholder="Enter your name" required>
+
   <label id="email-label">Email</label>
   <input id="email" type="email" placeholder="Enter your email" required>
 
@@ -26,17 +27,20 @@
 
   <fieldset>
     <label>Which option best describes your current role?</label>
-      <select id="dropdown">
-        <option>Student</option>
-        <option>Full time job</option>
-        <option>Full time learner</option>
-        <option>Prefer not to say</option> 
-        <option>Other</option>
-      </select>
+  <select id="dropdown">
+    <option value="">Select</option>
+    <option value="student">Student</option>
+    <option value="full-time-job">Full time job</option>
+    <option value="full-time-learner">Full time learner</option>
+    <option value="prefer-not-to-say">Prefer not to say</option> 
+    <option valye="other">Other</option>
+  </select>
   </fieldset>
 
   <fieldset>
-     <label id="radio-label">Would you recommend freeCodeCamp to a friend?</label>
+  <label id="radio-label">Would you recommend freeCodeCamp to a friend?</label>
+
+
      <label><input type="radio" value="yes" name="coding" class="inline" required>Yes</label>
      <label><input type="radio" value="no" name="coding" class="inline" required>No</label>
   </fieldset>
@@ -44,10 +48,11 @@
   <fieldset>
     <label>What is your favorite feature of freeCodeCamp?</label>
     <select id="dropdown">
-      <option>Challenges</option>
-      <option>Projects</option>
-      <option>Community</option>
-      <option>Open source</option>
+      <option value="">Select</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open-source">Open source</option>
     </select>
   </fieldset>
 
@@ -64,6 +69,7 @@
     <label><input type="checkbox" class="inline"> Wiki</label>
     <label><input type="checkbox" class="inline"> Forum</label>
     <label><input type="checkbox" class="inline"> Additional Courses</label>
+
   </fieldset>
 
 <fieldset>
