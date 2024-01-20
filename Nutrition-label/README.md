@@ -2,3 +2,5 @@ This is a HTML and CSS project that creates a nutrition label, primarily designe
 
 Project Overview
 The nutrition label project focuses on showcasing your ability to manipulate typography elements using CSS while creating a visually appealing and informative nutrition label.
+
+Typography is the art of styling your text to be easily readable and suit its purpose.
