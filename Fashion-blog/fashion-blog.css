@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(55, 41, 32);
+  color: wheat;
+  text-shadow: 10px 8px 10px rgb(6, 4, 0);
+
+}
+
+main {
+  display: flex;
+} 
+
+.fix {
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-128537.jpg);
+}
+
+.scroll {
+  margin-left: 210px;
+}
+
+hr {
+  border-color: rgb(228, 179, 118);
+}
+
+div {
+  border: 1px solid;
+  margin-bottom: 10px ;
+  padding: 10px 0 10px 5px;
+  border-color: wheat;
+  font-size: 20px;
+}
+
+.scroll div {
+  padding: 10px 5px 10px 5px;
+  font-size: 15px;
+}
+
+.cimek {
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(228, 179, 118);
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.cim {
+  font-size: 37px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fontos {
+  font-size: 12px;
+  font-style: italic;
+}
