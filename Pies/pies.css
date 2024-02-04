@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(250, 176, 215);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#header-img{
+  display: flex;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 2px solid rgb(54, 1, 25);
+}
+
+.h1 {
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Shrikhand', serif;  
+  font-size: 60px;
+  color: rgb(231, 13, 71);
+  text-shadow: 3px 3px 3px rgb(54, 1, 25);
+  border: 2px solid  rgb(54, 1, 25);
+  border-radius: 45px;
+  width: 580px;
+  padding: 8px 0px 10px 0px;
+}
+
+hr {
+  border-color:  rgb(54, 1, 25);
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  width: 370px;
+  text-decoration: none;
+  background-color: rgb(54, 1, 25);
+  color: rgb(250, 176, 215);
+  padding: 15px;
+  border-radius: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: rgb(54, 1, 25);
+  background-color: rgb(250, 176, 215);
+  border: 2px solid  rgb(54, 1, 25);
+}
+
+ul {
+  color: rgb(54, 1, 25);
+}
+
+.con1 {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.kep1 {
+  text-align: right;
+  width: 200px;
+  margin-top: 15px;
+  margin-right: 20px;
+  border: 2px solid  rgb(54, 1, 25);
+}
+
+#szallitas {
+  color: rgb(54, 1, 25);
+  text-align: center;
+  border: 2px solid  rgb(54, 1, 25);
+  margin-top: 40px;
+}
+
+.cim{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: rgb(54, 1, 25);
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.kep2 {
+  text-align: right;
+  width: 30px;
+  height: 30px;
+  margin-top: 19px;
+}
+
+.a1 {
+color: rgb(22, 109, 22);
+font-weight: bold;
+}
+
+.kontakt {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.ekon {
+  margin-bottom: 50px;
+}
+
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pitek {
+  flex: 1 0 20%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(54, 1, 25);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kep {
+  width: 250px;
+  border: 2px solid  rgb(54, 1, 25);
+}
+
+#ar {
+  margin: 20px;
+}
+
+table {
+  width: 500px;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: rgb(244, 157, 171);
+  color: rgb(54, 1, 25);
+}
+
+th, td {
+  border: 2px solid  rgb(54, 1, 25);
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.p2 {
+  font-size: 12px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 11px;
+}
