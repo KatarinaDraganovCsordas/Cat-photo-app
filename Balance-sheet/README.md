@@ -1,9 +1,9 @@
 # Financial Balance Sheet
 
-# Description
+## Description
 The Financial Balance Sheet project is a web application designed to display and manage financial data in the form of a balance sheet. It provides a clean and responsive layout for presenting financial information with a focus on clarity and ease of use.
 
-# Usage
+## Usage
 The Financial Balance Sheet application offers a user-friendly interface for managing financial data. Here's how to use it:
 
 1. Input financial data in the designated fields.
