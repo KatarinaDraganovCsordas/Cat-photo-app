@@ -11,4 +11,5 @@ and how to get in touch with us. You can navigate through the sections using the
 ## Contribution
 Contributions to this project are highly appreciated!
 
-ps. I'm thrilled about this project. I built it from 0 on my own. :)
+## ps.
+I'm thrilled about this project. I built it from 0 on my own. :)
