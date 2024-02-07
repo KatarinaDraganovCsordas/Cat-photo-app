@@ -23,7 +23,6 @@ header{
   }
 }
 
-
 #header-img{
   display: flex;
   margin: 0 auto;
@@ -89,6 +88,9 @@ ul {
   margin-right: 20px;
   border: 2px solid  rgb(54, 1, 25);
 }
+
+.kep:hover, .kep1:hover {
+  transform: scale(1.1);
 
 #szallitas {
   color: rgb(54, 1, 25);
