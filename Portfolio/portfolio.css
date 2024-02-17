@@ -15,10 +15,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 40px 0 40px;
+  width: 95%;
+  margin: auto;
 }
 
-a {
+.nav, .logo {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
   color: rgb(245, 18, 177);
@@ -30,6 +31,9 @@ nav > a {
   border: 1px solid rgb(145, 11, 98);
   box-shadow: 1px 1px 1px rgb(145, 11, 98);
   padding: 3px 5px 3px 5px;
+  background-color: rgb(216, 213, 215);
+  color: rgb(245, 18, 177);
+  text-decoration: none;
 }
 
 nav > a:hover {
@@ -41,15 +45,27 @@ nav > a:hover {
   font-size: 28px;
 }
 
-section {
+.con-div > a {
+  color: rgb(245, 18, 177);
+}
+
+.sec {
+  margin-top: 20px;
   display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  overflow: hidden;
+  background-color: rgb(198, 194, 197);
 }
 
 .h1 {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-size: 42px;
-  width: 600px;
 }
 
 .p1 {
@@ -59,14 +75,117 @@ section {
 
 .text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 500px;
 }
 
 .bottom-div {
-  width: 500px;
-  margin: 120px 0 0  40px;
+  max-width: 700px;
+  margin: 120px 0 0 30px;
+}
+
+.kati1 {
+  width: 310px;
+  height: 330px;
+  margin-top: 190px;
+  margin-left: 50px;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 5px 5px 5px rgb(145, 11, 98);
+  border-radius: 250px;
+}
+
+.a2 {
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  font-size: 25px;
+  padding: 2px 4px 2px 4px;
+  margin-top: 100px;
+  background-color: rgb(216, 213, 215);
+}
+
+.a2:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177);
+}
+
+.ppro {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-decoration: underline rgb(165, 163, 165);
+}
+
+.back {
+  display: flex;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ border: 1px solid rgb(145, 11, 98);
+ box-shadow: 1px 1px 1px rgb(145, 11, 98);
+ background-color: rgb(216, 213, 215);
+ padding: 1px 3px 2px 3px;
+ color: rgb(245, 18, 177);
+ text-decoration: none;
+}
+
+.back:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
+}
+
+.back-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
+.sec3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj {
+    margin: 10px;
+    flex: 0 0 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(145, 11, 98);
+    box-shadow: 1px 1px 1px rgb(145, 11, 98);    
+    box-sizing: border-box;
+    background-color: rgb(198, 194, 197);
 }
 
 .kep {
-  margin: 100px 40px 0 400px;
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid rgb(186, 74, 158);
+}
+
+.proj > p {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.proj  a {
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  color: rgb(245, 18, 177);
+  background-color: rgb(216, 213, 215);
+  padding: 2px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.proj a:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
 }
