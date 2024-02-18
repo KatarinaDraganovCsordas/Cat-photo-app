@@ -1,141 +1,253 @@
-<!DOCTYPE html> 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katarina Draganov Csordás</title>
-    <link rel="stylesheet" href="styles/Portfolio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up.css' rel='stylesheet'>
-  </head>
+body {
+  background-color: rgb(221, 218, 220);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(245, 18, 177);
+}
 
-  <body>
-    <div class="top-div">
-      <header class="header">
-        <div id="trina">
-          <a class="logo">trina.</a>
-        </div>
-  
-        <nav class="nav">
-          <a href="#home">Home</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About me</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-    </div>
+.top-div {
+  background-color: rgb(198, 194, 197);
+  padding: 13px 0 13px 0;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+}
 
-    <section class="sec">
-      <div class="bottom-div" id="home">
-        <h1 class="h1">Hello, I'm Katarina Draganov Csordás</h1>
-        <p class="p1">Frontend Developer</p>
-        <p class="text">My journey into the world of coding started in January 2024. 
-          I'm a dedicated learner with a passion for mastering new skills. 
-          Let's explore the possibilities and create something extraordinary together!</p>
-      
-          <div class="con-div">
-            <a href="mailto:katarina.draganov.cordas@gmail.com"><i class='bx bxl-gmail a2'></i></a>
-            <a href="https://github.com/KatarinaDraganovCsordas"><i class='bx bxl-github a2'></i></a>
-            <a href="https://www.instagram.com/katarina.draganov.csordas/"><i class='bx bxl-instagram-alt a2'></i></a>
-            <a href="#"><i class='bx bxl-linkedin a2'></i></a>
-          </div>
-        </div>
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
 
-      <div>
-        <img class="kati1" src="image/kati1.jpg">
-      </div>
-    </section>
+.nav, .logo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  color: rgb(245, 18, 177);
+}
 
+nav > a {
+  margin-left: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  padding: 3px 5px 3px 5px;
+  background-color: rgb(216, 213, 215);
+  color: rgb(245, 18, 177);
+  text-decoration: none;
+}
 
-    <div class="sec2">
-      <div id="projects">
-        <p class="ppro">These are some of my projects: </p>
-      </div>
+nav > a:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
+}
 
-      <section class="sec3">
-        <div class="proj1">
-          <div class="proj"><img class="kep" src="image/pies1.jpg.png">
-            <p>Pies</p>
-            <p><a href="http://127.0.0.1:5500/Product-landing-page.html">Open project...</a></p></div>
+.logo {
+  font-size: 28px;
+}
 
-          <div class="proj"><img class="kep" src="image/drag.jpg.png">
-            <p>Role play game</p>
-            <p><a href="http://127.0.0.1:5500/Role-play.html">Open project...</a></p></div>
+.con-div > a {
+  color: rgb(245, 18, 177);
+}
 
-          <div class="proj"><img class="kep" src="image/peng.jpg.png">
-            <p>Penguin</p>
-            <p><a href="http://127.0.0.1:5500/Penguin.html">Open project...</a></p></div>
+.sec {
+  margin-top: 20px;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  overflow: hidden;
+  background-color: rgb(198, 194, 197);
+}
 
-          <div class="proj"><img class="kep" src="image/dice.jpg.png">
-            <p>Dice game</p>
-          <p><a href="http://127.0.0.1:5500/Dice-game.html">Open project...</a></p></div>
-         </div>
-
-      </section>
-
-      <section id="about">
-        <div id="projects">
-          <p class="ppro">About me:</p>
-        </div>
-          <ul>
-            <li>Hello there! As you already know, my name is Katarina, 
-              a proud millennial born in '95. I'm originally from Serbia, 
-              but currently living in Austria.</li>
-            <li>My journey began as a swimmer. 
-              From 2008 to 2015, I proudly represented Serbia as a member 
-              of the national swimming team. My most significant accomplishments include 
-              setting a national/Balkan record and 
-              reaching the finals at the European Championships."</li>
-            <li>Alongside my athletic pursuits, 
-              I attended both elementary school and gymnasium</li>
-            <li>In the summers, between swimming seasons and school, 
-              I worked as a waitress, babysitter, and swimming teacher.</li>
-            <li>In 2015, I experienced an accident that resulted in paralysis. 
-              The same year I moved to Austria.</li>
-            <li>In 2016-2017, I spent time in hospitals and rehabilitations, where I also started learning german.</li>
-            <li>In 2018, I resumed swimming and successfully completed my first German course at the B1 level.</li>
-            <li>In 2019, I achieved the Paralympic qualification time and 
-              rejoined the national team (this time for paraswimming). 
-              I completed my second German course at the B2 level. 
-              And I also began my studies in psychology.</li>
-            <li>2020 was a challenging year for all of us, so let's skip over it.</li>
-            <li>In 2021, I participated in the Paralympic Games and achieved 9th place.</li>
-            <li>In 2022, I secured the 4th place in the World Championships, 
-              and concurrently, I made the decision to discontinue my studies.</li>
-            <li>In 2023, I found myself feeling a bit lost, to be honest. 
-              However, towards the end of the year, I discovered the art of coding, 
-              web design, and 3D art. Since then, I haven't missed a day, 
-              dedicating myself to learning by watching hundreds of hours on YouTube, 
-              seeking ways to improve faster. And  I also earned two certifications on the FreeCodeCamp website.</li>
-          </ul>
-      </section>
+.h1 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+}
 
 
-      <section id="contact">
-        <div id="projects">
-          <p class="ppro">Get in touch:</p>
-        </div>
-        <div class="top-div top-div1">
-          <a href="mailto:katarina.draganov.cordas@gmail.com">
-            <i class='bx bxl-gmail'></i> Send me a mail</a>
 
-          <a href="https://github.com/KatarinaDraganovCsordas">
-            <i class='bx bxl-github'></i> GitHub</a>
+.p1 {
+  font-size: 24px;
+  color:  rgb(248, 99, 196);
+}
 
-          <a href="https://www.instagram.com/katarina.draganov.csordas/">
-            <i class='bx bxl-instagram-alt'></i> Instagram</a>
+.text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-          <a href="#"><i class='bx bxl-linkedin'></i> Linkedin</a>
-        </div>
-      </section>
+.bottom-div {
+  max-width: 700px;
+  margin: 120px 0 0 30px;
+}
 
-      <div class="back-div">
-        <a class="back" href="#trina">Back to the top <i class="gg-arrow-up"></i></a>
-      </div>
-    </div>
+.kati1 {
+  width: 310px;
+  height: 330px;
+  margin-top: 190px;
+  margin-left: 50px;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 5px 5px 5px rgb(145, 11, 98);
+  border-radius: 250px;
+}
 
-  </body>
-</html>
+.a2 {
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  font-size: 25px;
+  padding: 2px 4px 2px 4px;
+  margin-top: 100px;
+  background-color: rgb(216, 213, 215);
+}
+
+.a2:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177);
+}
+
+.ppro {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-decoration: underline rgb(165, 163, 165);
+}
+
+.back {
+  display: flex;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ border: 1px solid rgb(145, 11, 98);
+ box-shadow: 1px 1px 1px rgb(145, 11, 98);
+ background-color: rgb(216, 213, 215);
+ padding: 1px 3px 2px 3px;
+ color: rgb(245, 18, 177);
+ text-decoration: none;
+}
+
+.back:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
+}
+
+.back-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
+.sec3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj {
+    margin: 10px;
+    flex: 0 0 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(145, 11, 98);
+    box-shadow: 1px 1px 1px rgb(145, 11, 98);    
+    box-sizing: border-box;
+    background-color: rgb(198, 194, 197);
+}
+
+.kep {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid rgb(186, 74, 158);
+}
+
+.kep:hover {
+  animation: zoomInOut 3s;
+}
+
+.proj > p {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.proj  a {
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  color: rgb(245, 18, 177);
+  background-color: rgb(216, 213, 215);
+  padding: 2px 10px 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.proj a:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+li {
+  margin: 15px 50px 0 5px;
+  background-color: rgb(198, 194, 197);
+  padding: 5px 10px 5px 10px;
+}
+
+.top-div1 {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 50px 20px 60px 20px;
+  font-size: 22px;
+}
+
+.top-div1 a {
+  text-decoration: none;
+  border: 1px solid rgb(145, 11, 98);
+  box-shadow: 1px 1px 1px rgb(145, 11, 98);
+  color: rgb(245, 18, 177);
+  background-color: rgb(216, 213, 215);
+  padding: 5px 10px 5px 10px;
+  animation: fadeOut 4s ease-in-out infinite;
+}
+
+.top-div1 a:hover {
+  color: rgb(216, 213, 215);
+  background-color: rgb(245, 18, 177) ;
+  animation: none;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0; 
+  } 
+  100% {
+    opacity: 1; 
+  }
+}
