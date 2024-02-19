@@ -3,10 +3,14 @@ This repository contains the projects I've completed as part of the freeCodeCamp
 
 
 ## My projects
+
+# I independently completed these projects for my certification
+
 * Survey Form
 * Tribute Page
 * Technical Documentation Page (Fashion-blog)
 * Product Landing Page (Pies)
+* Portfolio
 
 ## License
 This project is open-source and licensed under freeCodeCamp.org's No Copyright license.
