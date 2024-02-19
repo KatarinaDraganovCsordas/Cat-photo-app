@@ -2,9 +2,9 @@
 This repository contains the projects I've completed as part of the freeCodeCamp Responsive Web Design certification.
 
 
-## My projects
+# My projects
 
-# I independently completed these projects for my certification
+## I independently completed these projects for my certification
 
 * Survey Form
 * Tribute Page
