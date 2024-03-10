@@ -1,5 +1,3 @@
-
-
 body {
   background: linear-gradient( rgb(63, 10, 19), rgb(2, 2, 42),
    rgb(12, 78, 2), rgb(140, 2, 76), rgb(63, 10,19));
@@ -27,6 +25,10 @@ body {
   border: 2px solid wheat;
   width: 100px;
   height: 100px;
+}
+
+.kv1, .bv2 {
+  border: 2px solid rgba(245, 222, 179, 0.318);
 }
 
 .kv2, .kv3, .bv3 {
