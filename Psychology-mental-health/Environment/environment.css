@@ -1,0 +1,48 @@
+
+
+body {
+  background: linear-gradient( rgb(63, 10, 19), rgb(2, 2, 42),
+   rgb(12, 78, 2), rgb(140, 2, 76), rgb(63, 10,19));
+  font-family: "Quicksand", sans-serif;
+  margin-top: 230px;
+}
+
+.con1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 30px 2px 30px;
+}
+
+.kulso-vonal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid wheat;
+  width: 200px;
+  height: 200px;
+}
+
+.belso-vonal {
+  border: 2px solid wheat;
+  width: 100px;
+  height: 100px;
+}
+
+.kv2, .kv3, .bv3 {
+  border-radius: 50%;
+}
+
+.con2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 40px 2px 40px;
+}
+
+.text {
+  font-size: 18px;
+  color: wheat;
+  margin-top: 30px;
+}
+
