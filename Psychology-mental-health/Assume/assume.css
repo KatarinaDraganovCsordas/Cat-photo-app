@@ -1,0 +1,43 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #262525;
+  margin-top: 60px;
+}
+
+.elso-sor, .masodik-sor, .harmadik-sor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.elso-sor div, .masodik-sor div, .harmadik-sor div{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 4px;
+}
+
+.elso-sor > div:nth-child(1) {background-color: red;}
+.elso-sor > div:nth-child(2) {background-color: yellow;}
+.elso-sor > div:nth-child(3) {background-color: blue;}
+.elso-sor > div:nth-child(4) {background-color: blueviolet;}
+.elso-sor > div:nth-child(5) {background-color: green;}
+.elso-sor > div:nth-child(6) {background-color: orange;}
+.elso-sor > div:nth-child(7) {background-color: hotpink;}
+.elso-sor > div:nth-child(8) {background-color: yellowgreen;}
+.elso-sor > div:nth-child(9) {background-color: burlywood;}
+.elso-sor > div:nth-child(10) {background-color: rgb(95, 197, 238);}
+.elso-sor > div:nth-child(11) {background-color: purple;}
+
+.masodik-sor div {background-color: rgb(194, 192, 189);}
+
+.masodik-sor > div:nth-child(7) {background-color: hotpink;}
+
+.harmadik-sor div {background-color: hotpink;}
+
+p {
+  font-size: 20px;
+  color: rgb(194, 192, 189);
+  text-align: center;
+}
