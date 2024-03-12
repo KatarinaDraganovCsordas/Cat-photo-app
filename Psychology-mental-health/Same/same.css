@@ -1,0 +1,45 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #676666;
+  margin:auto ;
+  width: 700px;
+  color: rgb(250, 241, 224);
+  font-size: 19px;
+  margin-top: 50px;
+}
+
+p {
+  margin-left: 8px;
+}
+
+.con1, .con2, .con3, .con4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.con1 div, .con2 div, .con3 div, .con4 div {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(39, 171, 136);
+  margin-left: 10px;
+}
+
+.con1 div:nth-child(5) {border: 13px solid rgb(2, 82, 66);}
+
+.con2 div:nth-child(8) {border: 13px solid rgb(2, 82, 66);}
+
+.con3 div:nth-child(2) {border: 13px solid rgb(2, 82, 66);}
+
+.con4 div:nth-child(5) {border: 13px solid rgb(2, 82, 66);}
+
+.con4 div:nth-child(6) {background-color: hotpink;}
+
+.con4 div:nth-child(7) {background-color: hotpink;}
+
+.con4 div:nth-child(8) {background-color: hotpink;}
+
+.con4 div:nth-child(9) {background-color: hotpink;}
+
+.con4 div:nth-child(10) {background-color: hotpink;}
