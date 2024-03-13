@@ -1,0 +1,61 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #242323;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-top: 120px;
+}
+
+.felso-div, .also-p, .also-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+}
+
+.felso-div div, .also-div .kulso-div{
+  width: 100px;
+  height: 100px;
+  border: 3px solid whitesmoke;
+}
+
+.felso-div div:nth-child(3) {
+  background-color: rgb(20, 216, 72);
+}
+
+.felso-p {
+  text-align: center;
+}
+
+.belso-div1 {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(20, 216, 72);
+  margin-top: 75px;
+}
+
+.belso-div2 {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(20, 216, 72);
+  margin-top: 70px;
+}
+
+.belso-div3 {
+  width: 100px;
+  height: 10px;
+  background-color: rgb(20, 216, 72);
+  margin-top: 90px;
+}
+
+.belso-div4 {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(20, 216, 72);
+  margin-top: 80px;
+}
+
+.also-p {
+  margin-top: 100px;
+}
