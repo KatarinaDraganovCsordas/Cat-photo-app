@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(228, 221, 221);
+}
+
+p {
+  text-align: center; 
+  margin-bottom: 90px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(15, 22px);
+  grid-template-rows: repeat(4, 22px);
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.square {
+  width: 20px; 
+  height: 20px; 
+}
+
+ .square:nth-child(2), .square:nth-child(36), .square:nth-child(46), .square:nth-child(67) {background-color: hotpink;}
+ .square:nth-child(3), .square:nth-child(22), .square:nth-child(55), .square:nth-child(75) {background-color: yellow;}
+ .square:nth-child(4), .square:nth-child(25), .square:nth-child(52), .square:nth-child(74) {background-color: red;}
+ .square:nth-child(5), .square:nth-child(26), .square:nth-child(54) {background-color: green;}
+ .square:nth-child(6), .square:nth-child(27), .square:nth-child(57), .square:nth-child(68) {background-color: blue;}
+ .square:nth-child(7), .square:nth-child(28), .square:nth-child(56) {background-color: violet;}
+ .square:nth-child(8), .square:nth-child(29), .square:nth-child(51) {background-color: aqua;}
+ .square:nth-child(9), .square:nth-child(31), .square:nth-child(58) {background-color: blueviolet;}
+ .square:nth-child(10), .square:nth-child(30), .square:nth-child(47), .square:nth-child(72) {background-color: chartreuse;}
+ .square:nth-child(11), .square:nth-child(32), .square:nth-child(49) {background-color: chocolate;}
+ .square:nth-child(12), .square:nth-child(33), .square:nth-child(1), .square:nth-child(71) {background-color: darkkhaki;}
+ .square:nth-child(13), .square:nth-child(34), .square:nth-child(60) {background-color: firebrick;}
+ .square:nth-child(14), .square:nth-child(35), .square:nth-child(61) {background-color: forestgreen;}
+ .square:nth-child(15), .square:nth-child(37), .square:nth-child(62) {background-color: rebeccapurple;}
+ .square:nth-child(16), .square:nth-child(38), .square:nth-child(59) {background-color: indianred;}
+ .square:nth-child(17), .square:nth-child(39), .square:nth-child(48), .square:nth-child(70) {background-color: purple;}
+ .square:nth-child(18), .square:nth-child(40), .square:nth-child(63) {background-color: salmon;}
+ .square:nth-child(19), .square:nth-child(41), .square:nth-child(64), .square:nth-child(73) {background-color: teal;}
+ .square:nth-child(20), .square:nth-child(42), .square:nth-child(65) {background-color: yellowgreen;}
+ .square:nth-child(21), .square:nth-child(43), .square:nth-child(66) {background-color: indigo;}
+ .square:nth-child(23), .square:nth-child(44), .square:nth-child(50), .square:nth-child(69) {background-color: orangered;}
+ .square:nth-child(24), .square:nth-child(45), .square:nth-child(53) {background-color: oldlace;}
+
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(15, 22px);
+  grid-template-rows: repeat(5, 22px);
+  justify-content: center;
+}
+
+.container1 .square:nth-child(1),
+.container1 .square:nth-child(2),
+.container1 .square:nth-child(3),
+.container1 .square:nth-child(16),
+.container1 .square:nth-child(17),
+.container1 .square:nth-child(18) {
+  background-color: yellow;
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(4),
+.container1 .square:nth-child(5),
+.container1 .square:nth-child(19),
+.container1 .square:nth-child(20),
+.container1 .square:nth-child(34),
+.container1 .square:nth-child(35),
+.container1 .square:nth-child(49),
+.container1 .square:nth-child(50) {
+  background-color: rgb(41, 148, 20);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(31),
+.container1 .square:nth-child(32),
+.container1 .square:nth-child(46),
+.container1 .square:nth-child(47) {
+  background-color: rgb(128, 0, 124);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(33),
+.container1 .square:nth-child(48),
+.container1 .square:nth-child(61),
+.container1 .square:nth-child(62),
+.container1 .square:nth-child(63) {
+  background-color: red;
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(64),
+.container1 .square:nth-child(65),
+.container1 .square:nth-child(66),
+.container1 .square:nth-child(67),
+.container1 .square:nth-child(36),
+.container1 .square:nth-child(68),
+.container1 .square:nth-child(51),
+.container1 .square:nth-child(52) {
+  background-color: aqua;
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(6),
+.container1 .square:nth-child(7),
+.container1 .square:nth-child(8),
+.container1 .square:nth-child(9),
+.container1 .square:nth-child(10),
+.container1 .square:nth-child(21),
+.container1 .square:nth-child(22) {
+  background-color: rgb(228, 125, 246);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(23),
+.container1 .square:nth-child(38),
+.container1 .square:nth-child(37),
+.container1 .square:nth-child(53) {
+  background-color: rgb(0, 13, 255);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(24),
+.container1 .square:nth-child(25),
+.container1 .square:nth-child(26),
+.container1 .square:nth-child(39),
+.container1 .square:nth-child(40),
+.container1 .square:nth-child(41),
+.container1 .square:nth-child(54),
+.container1 .square:nth-child(55),
+.container1 .square:nth-child(56) {
+  background-color: rgb(255, 0, 0);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(11),
+.container1 .square:nth-child(12),
+.container1 .square:nth-child(13),
+.container1 .square:nth-child(27),
+.container1 .square:nth-child(28),
+.container1 .square:nth-child(42),
+.container1 .square:nth-child(43) {
+  background-color: rgb(231, 251, 6);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(69),
+.container1 .square:nth-child(70),
+.container1 .square:nth-child(71),
+.container1 .square:nth-child(72),
+.container1 .square:nth-child(73),
+.container1 .square:nth-child(74),
+.container1 .square:nth-child(75) {
+  background-color: rgb(253, 6, 199);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(14),
+.container1 .square:nth-child(15),
+.container1 .square:nth-child(29),
+.container1 .square:nth-child(30) {
+  background-color: rgb(23, 7, 250);
+  width: 22px;
+  height: 22px;
+}
+
+.container1 .square:nth-child(44),
+.container1 .square:nth-child(45),
+.container1 .square:nth-child(57),
+.container1 .square:nth-child(58),
+.container1 .square:nth-child(59),
+.container1 .square:nth-child(60) {
+  background-color: rgb(43, 173, 7);
+  width: 22px;
+  height: 22px;
+}
