@@ -22,6 +22,18 @@ p {
   height: 20px; 
 }
 
+/*Add to your css if you want the squares to move*/
+/*This is a small change, but it is important to say that it is necessary to change the
+class for the first "container". So the other one won't move.*/
+
+.square {
+transition: transform 0.3s ease;
+}
+
+.square:hover {
+  transform: scale(1.5);
+}
+
  .square:nth-child(2), .square:nth-child(36), .square:nth-child(46), .square:nth-child(67) {background-color: hotpink;}
  .square:nth-child(3), .square:nth-child(22), .square:nth-child(55), .square:nth-child(75) {background-color: yellow;}
  .square:nth-child(4), .square:nth-child(25), .square:nth-child(52), .square:nth-child(74) {background-color: red;}
