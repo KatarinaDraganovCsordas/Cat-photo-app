@@ -24,3 +24,23 @@ body {
   border-radius: 50%;
 }
 
+.container div:nth-child(1), .container1 div:nth-child(1) {background-color: rgb(76, 193, 8);}
+
+.container div:nth-child(2), .container1 div:nth-child(2) {background-color: rgb(251, 27, 27);}
+
+.container div:nth-child(3), .container1 div:nth-child(3) {background-color: rgb(193, 8, 187);}
+
+.text, .text1 {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  margin: -50px 48px 10px 48px;
+  text-align: center;
+}
+
+.text1 p {
+  margin: -10px 65px;
+  text-align: center;
+}
