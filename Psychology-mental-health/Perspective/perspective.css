@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(239, 242, 191);
+}
+
+.con1 {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 100px auto;
+}
+
+.div1 div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.div1 p, .con2 p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color div {background-color: rgb(85, 85, 195);}
+
+.color1 div {background-color: rgb(198, 43, 136);}
+
+.color2 div {
+  background-color: rgb(234, 36, 36);
+  margin-left: 17px;
+}
+
+.div2 {
+  width: 600px;
+  margin: auto;
+}
+
+.div2 div {
+  border-radius: 50%;
+}
+
+.div2 div:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(85, 85, 195);
+  margin-left: 200px;
+}
+
+.div2 div:nth-child(2) {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(198, 43, 136);
+  margin-left: 120px;
+}
+
+.div2 div:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(234, 36, 36);
+  margin-left: 270px;
+}
+
+.div2 div:nth-child(4) {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(234, 204, 36);
+  margin: -100px 0 0 300px;
+}
+
+.div2 div:nth-child(5) {
+  width: 110px;
+  height: 110px;
+  background-color: rgb(62, 234, 36);
+  margin: -210px 0 0 280px;
+}
+
+.div2 div:nth-child(6) {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(253, 93, 7);
+  margin: 70px 0 0 400px;
+}
+
+.div2 div:nth-child(7) {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(7, 228, 253);
+  margin: -250px 0 0 400px;
+}
+
+.div2 div:nth-child(8) {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(253, 7, 15);
+  margin: 20px 0 40px 500px;
+}
